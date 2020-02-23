@@ -13,8 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/grow-all/origin.git"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "bugs": {
     "url": "https://github.com/grow-all/origin/issues"
   }
