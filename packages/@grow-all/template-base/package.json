@@ -1,0 +1,21 @@
+{
+  "name": "@grow-all/template-base",
+  "version": "0.1.0",
+  "description": "grow-all-template-base",
+  "author": "guoyh <gyh9457@163.com>",
+  "homepage": "https://github.com/grow-all/origin#readme",
+  "license": "ISC",
+  "files": [
+    "generator",
+    "prompt"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grow-all/origin.git"
+  },
+  "scripts": {
+  },
+  "bugs": {
+    "url": "https://github.com/grow-all/origin/issues"
+  }
+}

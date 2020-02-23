@@ -1,0 +1,27 @@
+{
+  "name": "@grow-all/cli-share-utils",
+  "version": "0.1.0",
+  "description": "grow-all-cli-share-utils",
+  "author": "guoyh <gyh9457@163.com>",
+  "homepage": "https://github.com/grow-all/origin#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grow-all/origin.git"
+  },
+  "scripts": {
+  },
+  "bugs": {
+    "url": "https://github.com/grow-all/origin/issues"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "execa": "^4.0.0",
+    "open": "^7.0.2",
+    "semver": "^7.1.3"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  // 使用 IntelliSense 了解相关属性。 
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "grow-all-cli test",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "console": "integratedTerminal",
+      "autoAttachChildProcesses": true,
+      "program": "${workspaceFolder}\\packages\\@grow-all\\cli\\bin\\grow-all-cli.js",
+      "args": [
+        "create",
+        "test",
+        "--force",
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "grow-all-script test",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "console": "integratedTerminal",
+      "autoAttachChildProcesses": true,
+      "program": "${workspaceFolder}\\packages\\@grow-all\\script\\bin\\grow-all-script.js",
+      "args": [
+        "serve",
+        "--open"
+      ]
+    }
+  ]
+}

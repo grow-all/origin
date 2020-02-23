@@ -1,0 +1,3 @@
+# `@grow-all/script`
+
+## Usage

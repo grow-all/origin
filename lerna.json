@@ -1,0 +1,7 @@
+{
+  "npmClient": "yarn",
+  "packages": [
+    "packages/@grow-all/*"
+  ],
+  "version": "independent"
+}

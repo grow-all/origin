@@ -1,0 +1,5 @@
+node_modules
+packages/test
+temp
+dist
+packages/@grow-all/template-*/**/template/*

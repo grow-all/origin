@@ -1,0 +1,40 @@
+{
+  "name": "@grow-all/cli",
+  "version": "0.1.0",
+  "description": "grow-all-cli",
+  "author": "guoyh <gyh9457@163.com>",
+  "homepage": "https://github.com/grow-all/origin#readme",
+  "license": "ISC",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "bin": {
+    "gac": "bin/grow-all-cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grow-all/origin.git"
+  },
+  "scripts": {
+  },
+  "bugs": {
+    "url": "https://github.com/grow-all/origin/issues"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "dependencies": {
+    "@grow-all/cli-share-utils": "^0.1.0",
+    "@grow-all/template-base": "^0.1.0",
+    "commander": "^4.1.1",
+    "deepmerge": "^4.2.2",
+    "fs-extra": "^8.1.0",
+    "globby": "^11.0.0",
+    "inquirer": "^7.0.4",
+    "istextorbinary": "^3.3.0",
+    "nunjucks": "^3.2.0",
+    "semver": "^7.1.2",
+    "validate-npm-package-name": "^3.0.0"
+  }
+}
