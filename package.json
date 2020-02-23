@@ -7,7 +7,7 @@
     "bootstrap": "lerna bootstrap",
     "lint": "eslint --fix packages/**/*.js packages/**/bin/*.js",
     "lint-without-fix": "eslint packages/**/*.js packages/**/bin/*.js",
-    "publish": "lerna publish from-packages",
+    "publish": "lerna publish from-package",
     "lerna:version": "lerna version --no-push",
     "version": "node scripts/conventionalChangelog.js"
   },
